@@ -20,9 +20,12 @@ footer{background-color: rgb(5, 5, 194);
     border: none;
     font-size: 20px;}
     #helping{color: blue;
-    font-size: 35px;}
+    font-size: 50px;}
     .pic1{padding: 50px;
-    padding-left: 500px;}
+    padding-left: 100px;
+    width: 170%;
+font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
     .form{size: 80px;
     margin: 50px;
     border: 100px;}
