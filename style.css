@@ -13,9 +13,7 @@ footer{background-color: rgb(5, 5, 194);
     .rent{float: right;
     border: 2px rgb(253, 251, 251);
     padding-right: 500px;}
-    #start{float:right;
-    width: 70px;
-height: 50px;}
+    #start{float:right;}
     button{background-color: blue;
     color: white;
     border-radius: 10px;
