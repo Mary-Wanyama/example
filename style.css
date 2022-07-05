@@ -49,8 +49,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
     .secondlast{float:right;
     margin-right: 200px;}
     .image{
-        margin-right: 200px;
-        margin-left: 600px;
+        width: 100%;
     
     }
     #customer{color: rgb(5, 5, 122);
