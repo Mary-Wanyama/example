@@ -37,7 +37,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
         background-color: white;
     padding: 42px;
     margin: 50px;}
-    .palace{margin-left: 90px;
+    .palace{margin-left: 300px;
     margin-right: 90px;}
     form2{float: left;
     padding: 42px;
@@ -76,12 +76,12 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
     padding-left: 100px;
 font-size: 50px;
 font-weight: 600;}
-    .how{padding-left: 550px;
-    color: rgb(7, 7, 99);
+    .how{color: rgb(7, 7, 99);
 font-size: 50px;
 font-weight: 600;
 font-family: helvetica;}
-    .this{padding-left: 550px;}
+.this{font-size: 30px;
+font-family: helvetica;}
     #link{padding-top: 50px;}
     .palace{box-shadow: 5px 5px 2em;}
     #location{color: rgb(5, 5, 102);
