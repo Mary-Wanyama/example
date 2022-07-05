@@ -14,7 +14,8 @@ footer{background-color: rgb(5, 5, 194);
     .rent{float: right;
     border: 2px rgb(253, 251, 251);
     padding-right: 500px;}
-    #start{float:right;}
+    #start{float:right;
+    height: 20px;}
     button{background-color: blue;
     color: white;
     border-radius: 10px;
@@ -58,7 +59,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
     .esteemed{margin-left: 100px;
     margin-right: 100px;}
     .rent::shadow{box-shadow: 2px 2px rgb(126, 118, 118);}
-    header{padding-bottom: 10px;
+    header{padding-bottom: 50px;
     padding-top: 10px;}
     .address1{height: 200px;
     width: 100px;
