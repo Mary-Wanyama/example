@@ -73,9 +73,14 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
     padding-left: 550px;}
     .product{padding-left: 500px;}
     .our{color:rgb(6, 6, 83);
-    padding-left: 100px;}
+    padding-left: 100px;
+font-size: 50px;
+font-weight: 600;}
     .how{padding-left: 550px;
-    color: rgb(7, 7, 99);}
+    color: rgb(7, 7, 99);
+font-size: 50px;
+font-weight: 600;
+font-family: helvetica;}
     .this{padding-left: 500px;}
     #link{padding-top: 50px;}
     .palace{box-shadow: 5px 5px 2em;}
