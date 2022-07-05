@@ -61,7 +61,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
     .esteemed{margin-left: 100px;
     margin-right: 100px;}
     .rent::shadow{box-shadow: 2px 2px rgb(126, 118, 118);}
-    header{padding-bottom: 50px;
+    header{padding-bottom: 30px;
     padding-top: 10px;}
     .address1{height: 200px;
     width: 100px;
@@ -98,3 +98,4 @@ width: 95%;
 .choose{color:rgb(8, 8, 92);
 font-size: 30px;}
 .place{padding-left: 100px;}
+.vallie{font-size: 30px;}
