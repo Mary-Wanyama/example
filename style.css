@@ -1,111 +1,95 @@
-html{ overflow-x: hidden;
-width: 100%;}
-footer{background-color: rgb(5, 5, 194);
-    color: white;
-    height:700px;
-    margin-top: 50px;}
-table{font-size: medium;}
-.estate{font-style: italic;}
-th{font-weight:700;}
-#home{color: blue;}
-body{
-    
-        font-size: 20px;
-        background-color: whitesmoke;
+html{font-family: sans-serif;
+    background-color: whitesmoke;}
+    body{width: 80%;
         background-position-x: fixed;
-    }
-.rent{float: right;
-    border: 2px rgb(253, 251, 251);
-    padding-right: 500px;}
-#start{float:right;
-    height: 20px;}
-button{background-color: blue;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;}
+    #image1{float: left;}
+    .image1{font-weight: 400;
+    color: rgb(5, 5, 94);
+    font-size: 60px;
+    width: auto;
+    padding-right: 5%;}
+    div1{padding: 0%;
+    margin: 0%;
+    max-width: 90%;}
+    button{width: 150px;
+    height: 50px;
+    background-color: blue;
     color: white;
     border-radius: 10px;
-    border: none;
-    font-size: 20px;
-    width:150px;
-    height:50px;}
-#helping{color: blue;
-    font-size: 50px;}
-.pic1{
-    width: 100%;
-    font-size: 30px;
-    margin-top: 100px;
-    margin-left: 150px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;}
-.form{size: 80px;
-    margin: 50px;
-    border: 100px;}
-form{float:left;
-    padding: 42px;
-    background-color: white;
-    margin: 20px;}
-form1{float: left;
+    max-width: auto;
+    max-height: auto;
+    font-size: 25px;
+    font-weight: 600;}
+    .flex-container{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
         background-color: white;
-    padding: 42px;
-    margin: 50px;}
-.palace{ margin: 50px;
-    margin-left: 320px;}
-form2{float: left;
-    padding: 42px;
-    background-color: white;
-    margin: 40px;}
-body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-.last{float: right;
-    margin-right: 200px;}
-.secondlast{float:right;
-    margin-right: 200px;}
-.image{
-    font-size: 50px;
-        width: 100%;
+        height: 100px;
+        margin-top: 50px;
+        max-width: 100%;
+        border-radius: 20px;
+        font-size: 30px;
+        
+    }
+    #property{
+        font-size: 30px;
+        border-color: white;
+        background-color: white;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+    .form{
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 27%;
+        padding-top: 5px;
+    }
+    #form2{box-shadow: 2px 0px 2px 2px 2em;}
+    .image2{float: left;
+    padding-right: 10%;}
+    #image{ padding: 10%;
+    padding-left: 0%;}
+    .imageii{margin-bottom: 15%;
+    font-size: 30px;}
+    .p1{font-size: 45px;
+    font-weight: 700;
+    color: rgb(9, 9, 90);}
+    #p1{font-size: 25px;
+    font-weight: 80;}
+    #amen{float: right;}
+    #afford{float: right;}
+    .container1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: auto;
+        margin-bottom: 10px;
     
     }
-#customer{color: rgb(5, 5, 122);
+    #image4{background-color: white;
+    margin-right: 5%;
+    border-radius: 20px;}
+    .container2{
+        display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    
     }
-#client{margin-left: 500px;}
-.esteemed{margin-left: 100px;
-    margin-right: 100px;}
-.rent::shadow{box-shadow: 2px 2px rgb(126, 118, 118);}
-header{padding-bottom: 30px;
-    padding-top: 10px;}
-.address1{height: 200px;
-    width: 100px;
-    padding-left: 100px;}
-.address2{height: 220px;
-    width: 200px;
-    padding-left: 100px;}
-.partnership{background-color: blue;
-    margin-top: 200px;}
-.feature{color:rgb(8, 8, 92);
-        align-items: center;
-    padding-left: 550px;}
-.product{padding-left: 500px;}
-.our{color:rgb(6, 6, 83);
-    padding-left: 100px;
-font-size: 50px;
-font-weight: 600;}
-.how{color: rgb(7, 7, 99);
-font-size: 50px;
-font-weight: 600;
-font-family: helvetica;}
-.this{font-size: 30px;
-font-family: helvetica;}
-#link{padding-top: 50px;}
-.palace{box-shadow: 5px 5px 2em;
-    margin-top: 200px;}
-#location{color: rgb(5, 5, 102);
-    font-size: medium;
-font-family: Arial, Helvetica, sans-serif;}
-#select{ align-items: center;
-    align-self: center;
-width: 95%;
-}
-.choose{color:rgb(8, 8, 92);
-font-size: 30px;}
-.place{padding-left: 100px;}
-.vallie{font-size: 30px;}
-.estate{padding-top: 100px;}
-#author{font-size: 30px;
-background-color: white;
-}
+    .alex{background-color: white;
+        border-radius: 5%;
+        padding: 1.5%;
+        padding-bottom: 0%;
+    }
+    td{text-align: left;}
+    table{width: 100%;}
+    
