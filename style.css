@@ -5,12 +5,12 @@ html{font-family: sans-serif;
         background-position-x: fixed;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 25px;
+    font-size: 25vw;
     color: rgb(0, 0, 0);}
     #image1{float: left;}
     .image1{font-weight: 400;
     color: rgb(5, 5, 94);
-    font-size: 60px;
+    font-size: 60vw;
     width: auto;
     padding-right: 5%;}
     div1{padding: 0%;
@@ -24,7 +24,7 @@ html{font-family: sans-serif;
     border-radius:20px;
     max-width: auto;
     max-height: auto;
-    font-size: 25px;
+    font-size: 25vw;
     font-weight: 600;}
     .flex-container{
         display: flex;
@@ -36,13 +36,13 @@ html{font-family: sans-serif;
         margin-top: 50px;
         max-width: 100%;
         border-radius: 20px;
-        font-size: 30px;
+        font-size: 30vw;
         box-shadow: 5px 5px 0.3em black;
         padding-top: 10px;
         margin-bottom: 120px;}
         
     #property{
-        font-size: 30px;
+        font-size: 30vw;
         border-color: white;
         background-color: white;
     }
@@ -64,11 +64,11 @@ html{font-family: sans-serif;
     #image{ padding: 10%;
     padding-left: 0%;}
     .imageii{margin-bottom: 15%;
-    font-size: 30px;}
-    .p1{font-size: 45px;
+    font-size: 30vw;}
+    .p1{font-size: 45vw;
     font-weight: 700;
     color: rgb(9, 9, 90);}
-    #p1{font-size: 25px;
+    #p1{font-size: 25vw;
     font-weight: 80;}
     #amen{float: right;}
     #afford{float: right;}
@@ -117,14 +117,14 @@ html{font-family: sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 200%;
+    font-size: 20vw%;
     color: rgb(7, 7, 83);
     font-weight: 500px;
     margin-top: 50px;
     padding-top: 50px;
 }
 #div1{
-    font-size: 70%;
+    font-size: 70vw;
     color: black 0.8em;
     font-weight: 300px;
 }
@@ -132,19 +132,19 @@ html{font-family: sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 200%;
+    font-size: 20vw;
     color: rgb(5, 5, 83);
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 200px;
 }
 h3{
-    font-size: 180%;
+    font-size: 18vw;
     font-weight: 800;
     color: rgb(3, 3, 49);
 }
 #paragraph{
-    font-size: 120%;
+    font-size: 12vw;
     color: black;
 }
 h5{
@@ -172,7 +172,7 @@ header{
     padding-top: 20px;
 }
 #alex{
-    font-size: 80%;
+    font-size: 8vw;
 }
 #list{color: black}
 .list{color: black;
@@ -180,16 +180,3 @@ font-weight: 100;}
 button:hover{
     box-shadow: 5px 5px 0.2em blue;
 }
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 601px) {
-    div.example {
-      font-size: 80px;
-    }
-  }
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 600px) {
-    div.example {
-      font-size: 30px;
-    }
-  }
