@@ -1,11 +1,11 @@
 # index-file
 
 ## Table of content
-order Lists: 
->About The Project 
->License 
->Contact 
->Acknowledgements
+ 
+1. About The Project 
+2. License 
+3. Contact 
+4. Acknowledgements
 
 ## About The Project
 >This site is primarily built in html and custom css.>The main reason for creating this site is to bridge the communication 
