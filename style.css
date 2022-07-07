@@ -178,12 +178,16 @@ header{
 #list{color: black}
 .list{color: black;
 font-weight: 100;}
-@media  screen and (max: width 720px){
-    css-styles{
-        font-size: 50%;
-        margin-left: 3%;
-        margin-right: 3%;
-        padding: 2%;
-        overflow: scroll;
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    div.example {
+      font-size: 80px;
     }
-}
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }
