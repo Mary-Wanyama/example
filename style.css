@@ -37,7 +37,7 @@ html{font-family: sans-serif;
         max-width: 100%;
         border-radius: 20px;
         font-size: 30px;
-        box-shadow: 5px 5px 1px black;
+        box-shadow: 5px 5px 0.3em black;
         padding-top: 10px;
         margin-bottom: 120px;}
         
@@ -72,7 +72,7 @@ html{font-family: sans-serif;
     font-weight: 80;}
     #amen{float: right;}
     #afford{float: right;}
-    #form2:hover{ box-shadow: 5px 5px 1px black;
+    #form2:hover{ box-shadow: 5px 5px 0.2em black;
     background-color: lime;}
     .container1{
         display: flex;
@@ -95,7 +95,7 @@ html{font-family: sans-serif;
         border-radius: 5%;
         padding: 3%;
         padding-bottom: 0%;
-        box-shadow: 5px 5px 0.7px rgb(3, 3, 59);
+        box-shadow: 5px 6px 0.2em rgb(3, 3, 59);
     }
     td, th{text-align: left;}
     table{width: 100%;}
@@ -110,8 +110,7 @@ html{font-family: sans-serif;
         justify-content: space-between;
     }
     .container4:hover{
-        text-shadow: 2px 2px 0.2em blue;
-        background-color: blue;
+        text-shadow: 5px 5px 0.2em blue;
         color: white;
     }
 .div1{
@@ -178,6 +177,9 @@ header{
 #list{color: black}
 .list{color: black;
 font-weight: 100;}
+button:hover{
+    box-shadow: 5px 5px 0.2em blue;
+}
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
     div.example {
