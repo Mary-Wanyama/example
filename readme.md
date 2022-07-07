@@ -20,8 +20,8 @@ bettering of the choices.
 >The project is distributed under the GLP V3 licence. 
 
 ## Contact
-> Name: Mary Immaculate Wanyama*
-> https://mary-wanyama.github.io/index-file/
+* Mary Immaculate Wanyama*
+* https://mary-wanyama.github.io/index-file/
 
 ## Acknowledgement
 >I would like to acknowledge: 
