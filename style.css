@@ -1,12 +1,12 @@
 html{font-family: sans-serif;
     font-size: 0.5em;
-    background-color: rgb(250, 182, 10);}
+    background-color: whitesmoke;}
     body{width: 80%;
         background-position-x: fixed;
     margin-left: 10%;
     margin-right: 10%;
     font-size: 25px;
-    color: blue;}
+    color: rgb(0, 0, 0);}
     #image1{float: left;}
     .image1{font-weight: 400;
     color: rgb(5, 5, 94);
@@ -20,7 +20,7 @@ html{font-family: sans-serif;
     height: 50px;
     background-color: blue;
     color: white;
-    border-radius: 10px;
+    border-radius:50px;
     max-width: auto;
     max-height: auto;
     font-size: 25px;
@@ -36,8 +36,7 @@ html{font-family: sans-serif;
         max-width: 100%;
         border-radius: 20px;
         font-size: 30px;
-        
-    }
+        box-shadow: 5px 5px 1px black;}
     #property{
         font-size: 30px;
         border-color: white;
@@ -47,7 +46,7 @@ html{font-family: sans-serif;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 10px;
+        margin-top:50px;
         margin-bottom: 100px;
     }
     .form{
@@ -56,7 +55,6 @@ html{font-family: sans-serif;
         width: 27%;
         padding-top: 5px;
     }
-    #form2{box-shadow: 2px 0px 2px 2px 2em;}
     .image2{float: left;
     padding-right: 10%;}
     #image{ padding: 10%;
@@ -70,12 +68,14 @@ html{font-family: sans-serif;
     font-weight: 80;}
     #amen{float: right;}
     #afford{float: right;}
+    #form2:hover{ box-shadow: 5px 5px 1px black;
+    background-color: lime;}
     .container1{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         max-width: auto;
-        margin-bottom: 10px;
+        margin-bottom:50px;
     
     }
     #image4{background-color: white;
@@ -91,6 +91,7 @@ html{font-family: sans-serif;
         border-radius: 5%;
         padding: 3%;
         padding-bottom: 0%;
+        box-shadow: 5px 5px 0.7px rgb(3, 3, 59);
     }
     td, th{text-align: left;}
     table{width: 100%;}
@@ -103,6 +104,11 @@ html{font-family: sans-serif;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+    .container4:hover{
+        text-shadow: 2px 2px 0.2em blue;
+        background-color: blue;
+        color: white;
     }
 .div1{
     display: flex;
@@ -130,21 +136,21 @@ html{font-family: sans-serif;
 h3{
     font-size: 180%;
     font-weight: 800;
-    color: red;
+    color: rgb(3, 3, 49);
 }
 #paragraph{
     font-size: 120%;
-    color: blue;
+    color: black;
 }
 h5{
-    color: rgb(243, 179, 17);
+    color: black;
 }
-h2{color: rgb(245, 178, 9);}
+h2{color: black}
 h4{color: black;}
 footer{
     height: 400px;
     margin-top: 10%;
-    background-color: black;
+    background-color: rgb(11, 11, 100);
     color: white;
 }
 #table{
@@ -153,12 +159,17 @@ footer{
 }
 header{
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom:50px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
 }
 #alex{
     font-size: 80%;
 }
-#list{color: rgb(30, 30, 212);}
+#list{color: black}
 .list{color: black;
 font-weight: 100;}
 @media  screen and (max: width 720px){
