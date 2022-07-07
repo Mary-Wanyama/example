@@ -16,7 +16,7 @@ html{font-family: sans-serif;
     div1{padding: 0%;
     margin: 0%;
     max-width: 90%;}
-    button{width: 150px;
+    button{width: 180px;
     height: 50px;
     background-color: blue;
     color: white;
@@ -92,7 +92,7 @@ html{font-family: sans-serif;
         padding: 1.5%;
         padding-bottom: 0%;
     }
-    td{text-align: left;}
+    td, th{text-align: left;}
     table{width: 100%;}
     .container3{
         display: flex;
@@ -112,6 +112,7 @@ html{font-family: sans-serif;
     color: rgb(7, 7, 83);
     font-weight: 500px;
     margin-top: 50px;
+    padding-top: 50px;
 }
 #div1{
     font-size: 70%;
@@ -145,4 +146,25 @@ footer{
     margin-top: 20%;
     background-color: black;
     color: white;
+}
+#table{
+    padding-top: 50px;
+}
+header{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+#list{color: rgb(30, 30, 212);}
+.list{color: black;
+font-weight: 100;}
+@media  screen and (max: width 720px){
+    css-styles{
+        font-size: 50%;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding: 2%;
+        overflow: scroll;
+    }
+}
+    
 }

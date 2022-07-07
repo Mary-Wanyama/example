@@ -43,19 +43,27 @@
         </div>
     </div>
     <div class="flex-container">
-        <select name="location" id="property">
-            <option value="Location" style="display: none;"></option>
-            <option value="Lekki" style="border: none;"></option>
-        </select>
-        <select name="property" id="property">
-            <option value="prop" style="display: none;"> Property</option>
-            <option value="prop" style="border: none;">Duplex</option>
-        </select>
-        <select name="price" id="property">
-            <option value="price" style="display: none;">Max Price</option>
-            <option value="10000" style="border: none;">10,000</option>
-        </select>
-        <button><a>&#128269</a> Search</button>
+        <div>
+            <ul type="none">
+                <li id="list">Location &#8711</li>
+                <li class="list">Lekki</li>
+            </ul>
+        </div>
+        <div>
+            <ul type="none">
+                <li id="list">Property Type &#8711</li>
+                <li class="list">Duplex</li>
+            </ul>
+        </div>
+        <div>
+            <ul type="none">
+                <li id="list">Max Price &#8711</li>
+                <li class="list">$10,000</li>
+            </ul>
+        </div>
+        <div>
+            <button><a href="https://www.swiss.com/worldofswiss/en/home" target="_blank" >&#128269</a> Search</button>
+        </div>
     </div>
     <div>
 <h3>Our Products</h3>
@@ -211,11 +219,12 @@
     <button>view more</button>
   </div>
 </body>
-<footer style="background-color">
+<footer>
+    <div id="table">
     <table>
         <tr>
             <th><em>Vallie's Estate</em></th>
-            <tr>Property</tr>
+            <th>Property</th>
             <th>About</th>
             <th>Resources</th>
         </tr>
@@ -241,7 +250,7 @@
             <td> Social Impact</td>
             <td>Privacy Policy</td>
         </tr>
-
+    </div>
     </table>
 </footer>
 </html>
