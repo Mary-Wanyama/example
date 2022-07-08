@@ -33,13 +33,13 @@ html{font-family: sans-serif;
         flex-direction: row;
         align-items: center;
         background-color: white;
-        height: 100px;
+        height: 7vw;
         margin-top: 50px;
         max-width: 100%;
         border-radius: 20px;
         font-size: 2.2vw;
         box-shadow: 5px 5px 0.3em black;
-        padding-top: 10px;
+        padding-top: 1vw;
         margin-bottom: 120px;
         color: rgb(17, 17, 87);}
         
@@ -163,7 +163,7 @@ h5{
 h2{color: black}
 h4{color: black;}
 footer{
-    height: 400px;
+    height: 40vw;
     margin-top: 10%;
     background-color: rgb(11, 11, 100);
     color: white;
