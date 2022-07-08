@@ -5,17 +5,18 @@ html{font-family: sans-serif;
         background-position-x: fixed;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 25vw;
+    font-size: 2.5vw;
     color: rgb(0, 0, 0);}
     #image1{float: left;}
     .image1{font-weight: 400;
     color: rgb(5, 5, 94);
-    font-size: 60vw;
+    font-size: 3vw;
     width: auto;
     padding-right: 5%;}
     div1{padding: 0%;
     margin: 0%;
-    max-width: 90%;}
+    max-width: 90%;
+    font-size: 3vw;}
     button{width: 180px;
     height: 50px;
     background-color: blue;
@@ -24,7 +25,7 @@ html{font-family: sans-serif;
     border-radius:20px;
     max-width: auto;
     max-height: auto;
-    font-size: 25vw;
+    font-size: 1.5vw;
     font-weight: 600;}
     .flex-container{
         display: flex;
@@ -36,13 +37,14 @@ html{font-family: sans-serif;
         margin-top: 50px;
         max-width: 100%;
         border-radius: 20px;
-        font-size: 30vw;
+        font-size: 2.2vw;
         box-shadow: 5px 5px 0.3em black;
         padding-top: 10px;
-        margin-bottom: 120px;}
+        margin-bottom: 120px;
+        color: rgb(17, 17, 87);}
         
     #property{
-        font-size: 30vw;
+        font-size: 3vw;
         border-color: white;
         background-color: white;
     }
@@ -52,6 +54,7 @@ html{font-family: sans-serif;
         justify-content: space-between;
         margin-top:50px;
         margin-bottom: 100px;
+        font-size: 1.6vw;
     }
     .form{
         padding-left: 2%;
@@ -65,10 +68,10 @@ html{font-family: sans-serif;
     padding-left: 0%;}
     .imageii{margin-bottom: 15%;
     font-size: 30vw;}
-    .p1{font-size: 45vw;
+    .p1{font-size: 3vw;
     font-weight: 700;
     color: rgb(9, 9, 90);}
-    #p1{font-size: 25vw;
+    #p1{font-size: 1.5vw;
     font-weight: 80;}
     #amen{float: right;}
     #afford{float: right;}
@@ -84,7 +87,11 @@ html{font-family: sans-serif;
     }
     #image4{background-color: white;
     margin-right: 5%;
-    border-radius: 20px;}
+    border-radius: 20px;
+    font-size: 1vw;}
+    #image3{
+        font-weight: 100;
+    }
     .container2{
         display: flex;
       flex-direction: row;
@@ -95,7 +102,8 @@ html{font-family: sans-serif;
         border-radius: 5%;
         padding: 3%;
         padding-bottom: 0%;
-        box-shadow: 5px 6px 0.2em rgb(3, 3, 59);
+        box-shadow: 5px 6px 0.1em rgb(3, 3, 59);
+        font-size: 2vw;
     }
     td, th{text-align: left;}
     table{width: 100%;}
@@ -117,14 +125,15 @@ html{font-family: sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 20vw%;
+    font-size: 3vw;
     color: rgb(7, 7, 83);
-    font-weight: 500px;
+    font-weight: 600px;
     margin-top: 50px;
     padding-top: 50px;
+    margin-bottom: 50px;
 }
 #div1{
-    font-size: 70vw;
+    font-size: 2vw;
     color: black 0.8em;
     font-weight: 300px;
 }
@@ -132,19 +141,19 @@ html{font-family: sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 20vw;
+    font-size: 3vw;
     color: rgb(5, 5, 83);
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 200px;
 }
 h3{
-    font-size: 18vw;
+    font-size: 3vw;
     font-weight: 800;
     color: rgb(3, 3, 49);
 }
 #paragraph{
-    font-size: 12vw;
+    font-size: 2vw;
     color: black;
 }
 h5{
@@ -157,6 +166,10 @@ footer{
     margin-top: 10%;
     background-color: rgb(11, 11, 100);
     color: white;
+    font-size: 1.3vw;
+}
+th{
+    font-size: 1.9vw;
 }
 #table{
     padding-top: 50px;
@@ -164,7 +177,7 @@ footer{
 }
 header{
     padding-top: 15px;
-    padding-bottom:50px;
+    font-size: 1.5vw;
 }
 .buttons{
     display: flex;
@@ -172,11 +185,18 @@ header{
     padding-top: 20px;
 }
 #alex{
-    font-size: 8vw;
+    font-size: 1vw;
+    font-weight: 80;
 }
-#list{color: black}
-.list{color: black;
-font-weight: 100;}
+#alex1{
+    font-size: 1vw;
+}
+.list{color: rgb(85, 78, 78);
+font-weight: 80;
+font-size: 1.5vw;}
 button:hover{
-    box-shadow: 5px 5px 0.2em blue;
+    box-shadow: 5px 5px 0.2em rgb(5, 5, 88);
+}
+.esteem{
+    font-size: 3vw;
 }
