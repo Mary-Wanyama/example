@@ -111,6 +111,7 @@ html{font-family: sans-serif;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        padding-bottom: 1px;
     }
     .container4{
         display: flex;
