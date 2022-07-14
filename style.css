@@ -103,6 +103,7 @@ button{width: 12vw;
       justify-content: space-between;
       margin-left: 10%;
       margin-right: 10%;
+      margin-bottom: 2%;
     
     }
 .alex{background-color: white;
@@ -189,7 +190,7 @@ th{
     padding-left: 10%;
 }
 header{
-    padding-top: 15vw;
+    padding-top: 2vw;
     font-size: 1.5vw;
     height: 10% ;
 }
@@ -235,4 +236,8 @@ div30{
 .image5{
     margin-left: 3%;
     margin-right: 3%;
+}
+.horizontal{
+    position: relative;
+    top: -2vw;
 }
