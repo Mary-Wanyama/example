@@ -3,10 +3,10 @@ html{font-family: sans-serif;
     background-color: whitesmoke;}
 body{width: 80%;
         background-position-x: fixed;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
     font-size: 2.5vw;
-    color: rgb(0, 0, 0);}
+    color: rgb(0, 0, 0);
+    }
  #image1{float: left;}
 .image1{font-weight: 400;
     color: rgb(5, 5, 94);
@@ -41,7 +41,9 @@ button{width: 12vw;
         box-shadow: 5px 5px 0.3em black;
         padding-top: 1vw;
         margin-bottom: 120px;
-        color: rgb(17, 17, 87);}
+        color: rgb(17, 17, 87);
+        margin-left: 10%;
+        margin-right: 10%;}
         
 #property{
         font-size: 3vw;
@@ -55,6 +57,8 @@ button{width: 12vw;
         margin-top:50px;
         margin-bottom: 100px;
         font-size: 1.6vw;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 .form{
         padding-left: 2%;
@@ -83,10 +87,11 @@ button{width: 12vw;
         justify-content: space-between;
         max-width: auto;
         margin-bottom:50px;
+        margin-left: 10%;
+        margin-right: 10%;
     
     }
 #image4{background-color: white;
-    margin-right: 5%;
     border-radius: 20px;
     font-size: 1vw;}
 #image3{
@@ -96,6 +101,8 @@ button{width: 12vw;
         display: flex;
       flex-direction: row;
       justify-content: space-between;
+      margin-left: 10%;
+      margin-right: 10%;
     
     }
 .alex{background-color: white;
@@ -111,7 +118,8 @@ table{width: 100%;}
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding-bottom: 1px;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
     }
 .container4{
         display: flex;
@@ -132,6 +140,8 @@ table{width: 100%;}
     margin-top: 50px;
     padding-top: 50px;
     margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 #div1{
     font-size: 2vw;
@@ -147,6 +157,8 @@ table{width: 100%;}
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 200px;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 h3{
     font-size: 3vw;
@@ -177,13 +189,15 @@ th{
     padding-left: 10%;
 }
 header{
-    padding-top: 15px;
+    padding-top: 15vw;
     font-size: 1.5vw;
+    height: 10% ;
 }
 .buttons{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
+    margin-right: 10%;
 }
 #alex{
     font-size: 1vw;
@@ -200,8 +214,25 @@ button:hover{
 }
 .esteem{
     font-size: 3vw;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 a{
     text-decoration: none;
     color: black;
+}
+.first{
+    font-family: cursive;
+}
+.div20{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+div30{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.image5{
+    margin-left: 3%;
+    margin-right: 3%;
 }
