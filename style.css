@@ -1,16 +1,16 @@
-html{font-family: sans-serif;
+html{font-family: Space Grotesk;
     font-size: 0.5em;
     background-color: whitesmoke;}
 body{width: 80%;
         background-position-x: fixed;
     width: 100%;
     font-size: 2.5vw;
-    color: rgb(0, 0, 0);
+    color: rgb(95, 90, 90);
     overflow-x: hidden;
     }
  #image1{float: left;}
 .image1{font-weight: 400;
-    color: rgb(5, 5, 94);
+    color: #0f298b;
     font-size: 3vw;
     width: auto;
     padding-right: 5%;}
@@ -18,11 +18,11 @@ div1{padding: 0%;
     margin: 0%;
     max-width: 90%;
     font-size: 3vw;}
-button{width: 12vw;
+button{width: 10vw;
     height: 4vw;
-    background-color: blue;
+    background-color: #2549D3;
     margin-bottom: 40px;
-    color: white;
+    color: #FAFAFA;
     border-radius:1vw;
     max-width: auto;
     max-height: auto;
@@ -33,9 +33,9 @@ button{width: 12vw;
         justify-content: space-around;
         flex-direction: row;
         align-items: center;
-        background-color: white;
+        background-color: #FAFAFA;
         height: 10vh;
-        margin-top: 50px;
+        margin-top: 5vw;
         max-width: 100%;
         border-radius: 1vw;
         font-size: 2.2vw;
@@ -44,19 +44,20 @@ button{width: 12vw;
         margin-bottom: 120px;
         color: rgb(17, 17, 87);
         margin-left: 10%;
-        margin-right: 10%;}
+        margin-right: 10%;
+        margin-bottom: 5.5vw;}
         
 #property{
         font-size: 3vw;
-        border-color: white;
-        background-color: white;
+        border-color: #FAFAFA;
+        background-color: #FAFAFA;
     }
 .container{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin-top:50px;
-        margin-bottom: 100px;
+        margin-bottom: 18vw;
         font-size: 1.6vw;
         margin-left: 10%;
         margin-right: 10%;
@@ -65,7 +66,7 @@ button{width: 12vw;
         padding-left: 2%;
         padding-right: 2%;
         width: 27%;
-        padding-top: 5px;
+        padding-top: 6vw;
     }
 .image2{float: left;
     padding-right: 10%;}
@@ -77,7 +78,8 @@ button{width: 12vw;
     font-weight: 700;
     color: rgb(9, 9, 90);}
 #p1{font-size: 1.5vw;
-    font-weight: 80;}
+    font-weight: 80;
+    color: rgb(95, 90, 90);}
 #amen{float: right;}
 #afford{float: right;}
 #form2:hover{ box-shadow: 5px 5px 0.2em black;
@@ -92,7 +94,7 @@ button{width: 12vw;
         margin-right: 10%;
     
     }
-#image4{background-color: white;
+#image4{background-color: #FAFAFA;
     border-radius: 20px;
     font-size: 1vw;}
 #image3{
@@ -107,12 +109,14 @@ button{width: 12vw;
       margin-bottom: 2%;
     
     }
-.alex{background-color: white;
+.alex{background-color: #FAFAFA;
         border-radius: 5%;
         padding: 3%;
         padding-bottom: 0%;
         box-shadow: 5px 6px 0.1em rgb(3, 3, 59);
-        font-size: 2vw;
+        font-size: 1.7vw;
+        width: 25.5%;
+        padding-top: 0%;
     }
 td, th{text-align: left;}
 table{width: 100%;}
@@ -131,25 +135,25 @@ table{width: 100%;}
         justify-content: space-between;
     }
 .container4:hover{
-        text-shadow: 5px 5px 0.2em blue;
-        color: white;
+        text-shadow: 5px 5px 0.2em #2549D3;
+        color: #FAFAFA;
     }
 .div1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 3vw;
-    color: rgb(7, 7, 83);
+    color: #0f298b;
     font-weight: 600px;
-    margin-top: 50px;
-    padding-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 2vw;
+    padding-top: 3vw;
+    margin-bottom: 8vw;
     margin-left: 10%;
     margin-right: 10%;
 }
 #div1{
     font-size: 2vw;
-    color: black 0.8em;
+    color: rgb(95, 89, 89);
     font-weight: 300px;
 }
 .div12{
@@ -157,21 +161,22 @@ table{width: 100%;}
     flex-direction: row;
     justify-content: space-between;
     font-size: 3vw;
-    color: rgb(5, 5, 83);
+    color: #0f298b;
     font-weight: 700;
     margin-top: 20px;
-    margin-bottom: 200px;
+    margin-bottom: 18vw;
     margin-right: 10%;
     margin-left: 10%;
 }
 h3{
     font-size: 3vw;
     font-weight: 800;
-    color: rgb(3, 3, 49);
+    color: #0f298b;
 }
 #paragraph{
     font-size: 2vw;
     color: black;
+    margin-top: 0%;
 }
 h5{
     color: black;
@@ -180,9 +185,9 @@ h2{color: black}
 h4{color: black;}
 footer{
     height: 40vw;
-    margin-top: 10%;
+    margin-top: 12vw;
     background-color: rgb(11, 11, 100);
-    color: white;
+    color: #FAFAFA;
     font-size: 1.3vw;
 }
 th{
@@ -204,37 +209,41 @@ header{
     margin-right: 10%;
 }
 #alex{
-    font-size: 1vw;
+    font-size: 1.3vw;
     font-weight: 80;
 }
 #alex1{
     font-size: 1vw;
 }
-.list{color: rgb(85, 78, 78);
+.list{color: rgb(95, 90, 90);
 font-weight: 80;
 font-size: 1.5vw;}
 button:hover{
-    box-shadow: 5px 5px 0.2em rgb(5, 5, 88);
+    box-shadow: 5px 5px 0.2em #0f298b;
 }
 .esteem{
     font-size: 3vw;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 12vw;
+    margin-bottom: 2vw;
 }
 a{
     text-decoration: none;
     color: black;
 }
 .first{
-    font-family: cursive;
+    font-family: Oleo Script;
 }
 .div20{
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 5vw;
 }
-div30{
+.div30{
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 2vw;
 }
 .image5{
     margin-left: 3%;
@@ -243,4 +252,31 @@ div30{
 .horizontal{
     position: relative;
     top: -2vw;
+}
+.last{
+    font-weight: 90;
+    font-size: 1.2vw;
+}
+.div25{
+    margin-right: 3%;
+    width: 70%;
+}
+.h31{
+    margin-bottom: 0%;
+}
+.div45{
+    width: 60%;
+    margin-left: 0%;
+}
+.h32{
+    margin-bottom: 0%;
+}
+.div41{
+    margin-bottom: 0%;
+}
+.h46{
+    margin-top: 2%;
+}
+.tr1{
+    margin-bottom: 1vw;
 }
